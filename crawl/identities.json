@@ -1,0 +1,397 @@
+{
+  "tool": "suite-builder",
+  "ledgerVersion": 1,
+  "entities": [
+    {
+      "id": "type:/",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "HomePage",
+      "patterns": [
+        "/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/who-we-serve/specialty/*",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "AudiencePage",
+      "patterns": [
+        "/who-we-serve/specialty/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/resources/*",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "ResourcePage",
+      "patterns": [
+        "/resources/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/resources/*/*",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "ResourcesPage",
+      "patterns": [
+        "/resources/*/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/resources/case-study/*",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "ArticlePage",
+      "patterns": [
+        "/resources/case-study/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/solutions/clinical-communication-collaboration",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "SolutionsClinicalCommunicationPage",
+      "patterns": [
+        "/solutions/clinical-communication-collaboration"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/who-we-serve/team/physicians",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "WhoWeServeTeamPage",
+      "patterns": [
+        "/who-we-serve/team/physicians"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/company/*",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "WorkEmailPage",
+      "patterns": [
+        "/company/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/resources/*/*#2",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "BlogPostPage",
+      "patterns": [
+        "/resources/*/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/solutions/physician-scheduling-software",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "SolutionsPhysicianSchedulingSoftwarePage",
+      "patterns": [
+        "/solutions/physician-scheduling-software"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/resources/download/*",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "ResourcesDownloadPage",
+      "patterns": [
+        "/resources/download/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/why-perfectserve",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "WhyPerfectservePage",
+      "patterns": [
+        "/why-perfectserve"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/why-perfectserve/trust-security",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "WhyPerfectserveTrustSecurityPage",
+      "patterns": [
+        "/why-perfectserve/trust-security"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/resources/video/*",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "ResourcesVideoPage",
+      "patterns": [
+        "/resources/video/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/who-we-serve/team/nurses",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "WhoWeServeTeam2Page",
+      "patterns": [
+        "/who-we-serve/team/nurses"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/solutions/intelligent-answering",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "SolutionsIntelligentAnsweringPage",
+      "patterns": [
+        "/solutions/intelligent-answering"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/resources/product-tours/*",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "ResourcesProductToursPage",
+      "patterns": [
+        "/resources/product-tours/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/company/legal/*",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "CompanyLegalPage",
+      "patterns": [
+        "/company/legal/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/solutions/healthcare-operator-console",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "SolutionsHealthcareOperatorConsolePage",
+      "patterns": [
+        "/solutions/healthcare-operator-console"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/*",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "FirstNamePage",
+      "patterns": [
+        "/*",
+        "/go/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/who-we-serve/team/practice-managers",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "WhoWeServeTeam3Page",
+      "patterns": [
+        "/who-we-serve/team/practice-managers"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/solutions/medical-answering-service",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "SolutionsMedicalAnsweringServicePage",
+      "patterns": [
+        "/solutions/medical-answering-service"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/company/*/*",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "CompanyPage",
+      "patterns": [
+        "/company/*/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/why-perfectserve/support-model",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "WhyPerfectserveSupportModelPage",
+      "patterns": [
+        "/why-perfectserve/support-model"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/who-we-serve/hospitals-and-health-systems",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "WhoWeServeHospitalsPage",
+      "patterns": [
+        "/who-we-serve/hospitals-and-health-systems"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/why-perfectserve/calculators/*",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "WhyPerfectserveCalculatorsPage",
+      "patterns": [
+        "/why-perfectserve/calculators/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/resources",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "ResourcesListPage",
+      "patterns": [
+        "/resources"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/why-perfectserve/best-in-klas",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "WhyPerfectserveBestInPage",
+      "patterns": [
+        "/why-perfectserve/best-in-klas"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/who-we-serve/medical-practices",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "WhoWeServeMedicalPage",
+      "patterns": [
+        "/who-we-serve/medical-practices"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    },
+    {
+      "id": "type:/go/*",
+      "kind": "page-type",
+      "introducedAt": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b",
+      "cls": "GoPage",
+      "patterns": [
+        "/go/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "81c642d346999208934c27f01b1c7ee6759a8968af3b99d4dc0e4aba8c907d7b"
+      }
+    }
+  ]
+}

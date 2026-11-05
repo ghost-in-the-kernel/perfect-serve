@@ -1,0 +1,34 @@
+{
+  "tool": "suite-builder",
+  "version": "1.39.0",
+  "build": {
+    "commit": "c91adef2dc1f2215f033cd9d73f25c72f171afb2",
+    "branch": "main"
+  },
+  "framework": "playwright",
+  "generatedAt": "2026-11-05T17:05:06.991Z",
+  "command": "suite-builder build https://www.perfectserve.com/",
+  "templates": "crawl/www.perfectserve.com.templates.json",
+  "crawl": "crawl/www.perfectserve.com.crawl.json",
+  "crawlFileSaved": "2026-11-05T17:05:03.211Z",
+  "accounts": [
+    {
+      "role": "user",
+      "file": "secrets/user.login",
+      "environment": [
+        "SUITE_USER_USERNAME",
+        "SUITE_USER_PASSWORD"
+      ],
+      "docked": "<Suite Builder's secrets folder, DOCK.md's last line>/<site>/user.login"
+    },
+    {
+      "role": "admin",
+      "file": "secrets/admin.login",
+      "environment": [
+        "SUITE_ADMIN_USERNAME",
+        "SUITE_ADMIN_PASSWORD"
+      ],
+      "docked": "<Suite Builder's secrets folder, DOCK.md's last line>/<site>/admin.login"
+    }
+  ]
+}
